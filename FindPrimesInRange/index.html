@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Number Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Prime Number Finder</h1>
+        <div class="input-container">
+            <label for="start">Start Range:</label>
+            <input type="number" id="start" placeholder="Enter start range">
+            <label for="end">End Range:</label>
+            <input type="number" id="end" placeholder="Enter end range">
+            <button id="findPrimes">Find Primes</button>
+        </div>
+        <div class="result-container">
+            <h2>Prime Numbers in the Range:</h2>
+            <ul id="primeList"></ul>
+        </div>
+        <div class="performance-container">
+            <h2>Performance Metrics:</h2>
+            <ul id="performanceMetrics"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
